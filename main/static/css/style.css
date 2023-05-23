@@ -374,18 +374,9 @@ footer{
 }
 .see{
     position: absolute;
-    top: 33%;
+    top: 55%;
     right: 20px;
     cursor: pointer;
-}
-.see .bi-eye-fill{
-    display: none;
-}
-.see.hide .bi-eye-fill{
-    display: block;
-}
-.see.hide .bi-eye-slash-fill{
-    display: none;
 }
 /* styling signup done  */
 
@@ -569,6 +560,15 @@ footer{
         margin-bottom: 10%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .pass{
+        position: relative;
+    }
+    .see{
+        position: absolute;
+        top: 55%;
+        right: 20px;
+        cursor: pointer;
     }
 
 }
