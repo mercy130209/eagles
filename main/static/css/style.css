@@ -561,6 +561,15 @@ footer{
         margin-left: 5%;
         margin-right: 5%;
     }
+    .pass{
+        position: relative;
+    }
+    .see{
+        position: absolute;
+        top: 55%;
+        right: 20px;
+        cursor: pointer;
+    }
 
 }
 
