@@ -378,15 +378,6 @@ footer{
     right: 20px;
     cursor: pointer;
 }
-.see .bi-eye-fill{
-    display: none;
-}
-.see.hide .bi-eye-fill{
-    display: block;
-}
-.see.hide .bi-eye-slash-fill{
-    display: none;
-}
 /* styling signup done  */
 
 
