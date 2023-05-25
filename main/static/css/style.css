@@ -374,8 +374,8 @@ footer{
 }
 .see{
     position: absolute;
-    top: 35%;
-    right: 20px;
+    top: 34%;
+    right: 18px;
     cursor: pointer;
 }
 /* styling signup done  */
@@ -566,8 +566,8 @@ footer{
     }
     .see{
         position: absolute;
-        top: 55%;
-        right: 20px;
+        top: 34%;
+        right: 18px;
         cursor: pointer;
     }
 
@@ -660,6 +660,15 @@ footer{
         margin-left: 5%;
         margin-right: 5%;
     }
+    .pass{
+        position: relative;
+    }
+    .see{
+        position: absolute;
+        top: 34%;
+        right: 18px;
+        cursor: pointer;
+    }
 }
 
 @media  (max-width:800px) {
@@ -716,6 +725,15 @@ footer{
         top: 80%;
         left: 18%;
         padding: 1% 10%;
+    }
+    .pass{
+        position: relative;
+    }
+    .see{
+        position: absolute;
+        top: 34%;
+        right: 18px;
+        cursor: pointer;
     }
    
 }
