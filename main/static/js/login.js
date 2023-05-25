@@ -15,3 +15,19 @@ see.addEventListener('click', ()=>{
         see.firstElementChild.className= notShowPwdClass
     }
 })
+
+let put=document.querySelector('.put')
+let show = document.querySelector('.show')
+
+show.firstElementChild.className= notShowPwdClass
+
+show.addEventListener('click', ()=>{
+    if(put.type === 'password'){
+        put.type = 'text';
+        show.firstElementChild.className= showingPwdClass
+    }
+    else{
+        put.type = 'password';
+        show.firstElementChild.className= notShowPwdClass
+    }
+})

@@ -391,15 +391,14 @@ footer{
     
     cursor: pointer;
 }   
-
-/* styling signup done  */
- #cl:disabled{
+#cl:disabled{
     background-color: black;
     cursor: not-allowed;
     color: 
     white;
  }
-
+/* styling signup done  */
+ 
 /* styling cart  */
 .cart table{
     width: 80%;

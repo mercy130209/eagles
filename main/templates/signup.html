@@ -35,16 +35,28 @@
       <label for="exampleFormControlInput1" class="form label">Email Address</label>
       <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form label">Password</label>
-      <input type="password" name="password1" class="form-control" id="exampleFormControlInput1">
+    <div class="mb-3 pass">
+      <label for="inputPassword5" class="form-label">Password</label>
+      <div class="pwdField">
+        <input type="password" name="password1" id="inputPassword5" class="input" aria-labelledby="passwordHelpBlock">
+        <div class="see">
+          <i></i>
+        </div>
     </div>
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form label">Confirm Password</label>
-      <input type="password" name="password2" class="form-control" id="exampleFormControlInput1">
+    <div class="mb-3 pass">
+      <label for="inputPassword5" class="form-label">Confirm Password</label>
+      <div class="pwdField">
+        <input type="password" name="password2" id="inputPassword5" class="put" aria-labelledby="passwordHelpBlock">
+        <div class="show">
+          <i></i>
+        </div>
+    </div>
+    <div class="mb-3 mt-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Agreed to terms and conditions</label>
     </div>
     <div class="mb-3 mt-5">
-      <button class="btn btn-outline-dark text-capitalize">Register</button>
+      <button id="cl" class="btn btn-outline-dark text-capitalize">Register</button>
     </div>
     <p class="text-capitalize">Already Have An Account <span><a href="{% url 'signin' %}">Login here </a></span></p>
    </form>
